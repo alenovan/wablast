@@ -14,7 +14,7 @@ const jsonParser = bodyParser.json()
 const app = express();
 const server = http.createServer(app);
 
-const callback_server = "https://autolanding.id/";
+const callback_server = "http://dev.godzillab.com/wablast/";
 
 app.use(express.json());
 app.use(express.urlencoded({
